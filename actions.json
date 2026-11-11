@@ -1,0 +1,6 @@
+[
+  {"type":"click","selector":"a[href='#/catalog']"},
+  {"type":"assert","selector":".catalog__head h1","property":"text","equals":"Каталог"},
+  {"type":"fill","selector":"input[placeholder='Поиск по товарам…']","value":"креатин"},
+  {"type":"assert","selector":".card__title","property":"text","contains":"Креатин"}
+]
